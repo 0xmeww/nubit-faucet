@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  delay:
+    specifier: ^6.0.0
+    version: 6.0.0
   dotenv:
     specifier: ^16.4.4
     version: 16.4.5
@@ -44,6 +47,11 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
+    dev: false
+
+  /delay@6.0.0:
+    resolution: {integrity: sha512-2NJozoOHQ4NuZuVIr5CWd0iiLVIRSDepakaovIN+9eIDHEhdCAEvSy2cuf1DCrPPQLvHmbqTHODlhHg8UCy4zw==}
+    engines: {node: '>=16'}
     dev: false
 
   /dotenv@16.4.5:
